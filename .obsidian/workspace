@@ -1,0 +1,103 @@
+{
+  "main": {
+    "id": "60639fd75ac24150",
+    "type": "split",
+    "children": [
+      {
+        "id": "2d67d75a4f488404",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Stage de Clément/01- Intégration.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "bf6ebb73cc347454",
+    "type": "split",
+    "children": [
+      {
+        "id": "4bac7b7c8d30fd46",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "79d2e9464354623c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "4ea55a0cc9cd7910",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d21c88ec2b2fec0a",
+    "type": "split",
+    "children": [
+      {
+        "id": "53d75a5316ba7989",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "928d92a3f15205c6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Stage de Clément/01- Intégration.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "57727f78ab4d4165",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "2d67d75a4f488404",
+  "lastOpenFiles": [
+    "Stage de Clément/01- Intégration.md",
+    "README.md"
+  ]
+}
