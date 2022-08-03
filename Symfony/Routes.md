@@ -9,11 +9,12 @@
 ## Paramètres conditionnels avec requirements
 ```php
 /**
- * @Route("/hello/{age}/{nom}/{prenom}", name="hello", requirements={"nom"=#[a-z]{2,50}"})
- */
+* @Route("/hello/{age}/{nom}/{prenom}", name="hello", requirements={"nom"=#[a-z]{2,50}"})
+*/
 ```
 
+https://developer.mozilla.org/fr/docs/Web/JavaScript/Guide/Regular_Expressions
 
-## Afficher toutes les routes
+## Liste des routes
 `php bin/console debug:router`
 
