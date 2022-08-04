@@ -48,3 +48,6 @@ Les flashbags (pour rappel ce sont des tableaux)
 
 ## L'inclusion du CSS et du JavaScript dans une vue
 
+## Les filtres et les fonctions
+
+https://twig.symfony.com/doc/3.x/filters/index.html
