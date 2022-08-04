@@ -1,5 +1,7 @@
 # Le moteur de template Twig
 
+https://twig.symfony.com/doc/3.x/intro.html
+
 ## Syntaxe
 - `{{ ... }}` utilisé pour afficher le contenu d'une variable our le résultat de l'évaluation d'une expression.
 - `{% ... %}` utilsé pour exécuter une structure de contrôle (if, foreach...)
@@ -48,6 +50,11 @@ Les flashbags (pour rappel ce sont des tableaux)
 
 ## L'inclusion du CSS et du JavaScript dans une vue
 
-## Les filtres et les fonctions
-
+## Les filtres
 https://twig.symfony.com/doc/3.x/filters/index.html
+- upper
+- date
+- raw
+
+## Les fonctions
+https://twig.symfony.com/doc/2.x/functions/index.html
