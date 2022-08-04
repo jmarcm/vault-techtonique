@@ -47,3 +47,4 @@ Les flashbags (pour rappel ce sont des tableaux)
 ```
 
 ## L'inclusion du CSS et du JavaScript dans une vue
+
