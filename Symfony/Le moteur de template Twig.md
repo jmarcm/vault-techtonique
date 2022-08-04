@@ -52,9 +52,13 @@ Les flashbags (pour rappel ce sont des tableaux)
 
 ## Les filtres
 https://twig.symfony.com/doc/3.x/filters/index.html
+Syntaxe : `{{ expression | filter }}`
 - upper
 - date
 - raw
 
 ## Les fonctions
 https://twig.symfony.com/doc/2.x/functions/index.html
+Syntaxe : `{{ fonction(expression) }}`
+- dump
+- 
