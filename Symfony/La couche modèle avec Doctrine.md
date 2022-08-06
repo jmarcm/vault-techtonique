@@ -8,4 +8,6 @@ Symfony dispose d'un [[ORM]].
 2. Puis on lance la création avec `php bin/console doctrine:database:create`.
 
 ## Les entités
-On peut créer les entitées avec la CLI `php bin/console make:entity`.
+On peut créer les entitées
+- à la main
+- avec la CLI `php bin/console make:entity`.
