@@ -49,3 +49,11 @@ Les données peuvent provenir d'un fichier Excel ou même d'une classe.
 6. On fait persister l'objet avec la méthode `persist` de l'ObjectManager : `$manager->persist($produit);`.
 7. On lance la requête avec la méthode flush : `$manager->flush();`.
 8. Pour exécuter toutes les fixtures du dossier DataFixtures on lance dans la console : `php bin/console doctrine:fixtures:load`.
+9. Si ça ne marche pas : ajouter ces lignes à config/services.yaml
+```yaml
+App\DataFixtures\:
+    ressource: '../src/Datafixtures'
+    tags: ['doctrine.fixture.orm',]
+```
+
+## La récupération des produits à partir de la base de données
