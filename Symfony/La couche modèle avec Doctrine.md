@@ -42,4 +42,6 @@ Les données peuvent provenir d'un fichier Excel ou même d'une classe.
 
 ### Créer une fixture pour la table Produit
 1. Copier le contenu de AppFixtures.php dans ProduitFixtures.php - sans oublier de modifier le nom de la classe.
-2. Comme source de données on crée une classe 
+2. Comme source de données on crée une classe ListeProduits qui a une constante rangée dans `src/Data`.
+3. Dans ProduitFixtures() on utilise ListeProduits(). Il suffit d'indiquer son namespace `use App\Data\ListeProduits;` et l'autoload de Symfony fera le reste.
+4. Pour créer un produit, il faut instancier la classe Produit().
