@@ -44,4 +44,8 @@ Les données peuvent provenir d'un fichier Excel ou même d'une classe.
 1. Copier le contenu de AppFixtures.php dans ProduitFixtures.php - sans oublier de modifier le nom de la classe.
 2. Comme source de données on crée une classe ListeProduits qui a une constante rangée dans `src/Data`.
 3. Dans ProduitFixtures() on utilise ListeProduits(). Il suffit d'indiquer son namespace `use App\Data\ListeProduits;` et l'autoload de Symfony fera le reste.
-4. Pour créer un produit, il faut instancier la classe Produit().
+4. Pour créer un produit, il faut instancier la classe Produit(). On indique au préalable son namespace `use App\Entity\Produit;` 
+5. On utilise les setters pour chaque champ.
+6. On fait persister l'objet avec la méthode `persist` de l'ObjectManager : `$manager->persist($produit);`.
+7. On lance la requête avec la méthode flush : `$manager->flush();`.
+8. Pour exécuter toutes les fixtures du dossier DataFixtures on lance dans la console : `php bin/console doctrine:fixtures:load`.
