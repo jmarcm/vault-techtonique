@@ -10,7 +10,23 @@ Symfony dispose d'un [[ORM]].
 ## Les entités
 On peut créer les entitées
 - à la main
-- avec la CLI
-	1. création de l'entité :  `php bin/console make:entity`
-	2. création de la migration : `php bin/console make:migration`
-	3. création des tables : `php bin/console doctrine:migrations:migration`
+- avec la CLI création de l'entité :  `php bin/console make:entity`
+
+## Les migrations
+Les migrations sont des classes qui décrivent la création des tables.
+1. création des migrations :  `php bin/console make:migration`
+2. création des tables : `php bin/console doctrine:migrations:migrate`
+
+La table **migration_versions** contient l'historique des migrations effectuées.
+Si on réexécute la commande rien ne se passera si la migration est déjà présente dans cette table.
+Autrement, il faut soit supprimer la migration ou la table correspondante.
+
+On peut utiliser des alias de version lors de l'éxécution des migrations :
+- first : pour la première version
+- prev
+- nect
+- latest
+`php bin/console doctrine migrations:migrate prev` supprimera la dernière migration.
+
+## Les fixtures
+Les fixtures permettent de remplir une table grâce à une commande sur le terminal
