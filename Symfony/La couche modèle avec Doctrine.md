@@ -34,5 +34,12 @@ Ce qui sera codé dans la fixture pourrait être placé dans un contrôleur.
 Sur le terminal on peut exécuter toutes les fixtures d'un coup.
 
 Il faut ajouter un package supplémentaire (en utilisant un alias) : 
-`composer require --dev orm-fixtures`
-Cette commande crée un dossier src/DataFixtures contenant un fichier exemple : AppFixtures.php
+- si flex est installé :  `composer require --dev orm-fixtures`
+- sans flex : `composer require --dev doctrine/doctrine-fixtures-bundle`
+Cette commande crée un dossier src/DataFixtures contenant un fichier exemple : AppFixtures.php.
+
+Les données peuvent provenir d'un fichier Excel ou même d'une classe.
+
+### Créer une fixture pour la table Produit
+1. Copier le contenu de AppFixtures.php dans ProduitFixtures.php - sans oublier de modifier le nom de la classe.
+2. Comme source de données on crée une classe 
