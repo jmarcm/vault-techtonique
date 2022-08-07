@@ -29,4 +29,10 @@ On peut utiliser des alias de version lors de l'éxécution des migrations :
 `php bin/console doctrine migrations:migrate prev` supprimera la dernière migration.
 
 ## Les fixtures
-Les fixtures permettent de remplir une table grâce à une commande sur le terminal
+Les [fixtures](https://symfony.com/bundles/DoctrineFixturesBundle/current/index.html) permettent de remplir une table grâce à une commande sur le terminal.
+Ce qui sera codé dans la fixture pourrait être placé dans un contrôleur.
+Sur le terminal on peut exécuter toutes les fixtures d'un coup.
+
+Il faut ajouter un package supplémentaire (en utilisant un alias) : 
+`composer require --dev orm-fixtures`
+Cette commande crée un dossier src/DataFixtures contenant un fichier exemple : AppFixtures.php
