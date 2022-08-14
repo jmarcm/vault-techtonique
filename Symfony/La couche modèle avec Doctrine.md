@@ -57,3 +57,4 @@ App\DataFixtures\:
 ```
 
 ## La récupération des produits à partir de la base de données
+On utilise un controleur.
