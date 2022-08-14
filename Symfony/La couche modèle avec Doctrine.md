@@ -57,4 +57,12 @@ App\DataFixtures\:
 ```
 
 ## La récupération des produits à partir de la base de données
-On utilise un controleur.
+
+- On utilise un controleur.
+- On fait appel au Repository lié à l'entité.
+
+## Ajouter des informations à une base de données
+
+- Ajout du champ dans la table -- via la mise à jour de l'entité et des migrations
+- Rafraichissement  de la table -- via les fixtures
+- 
