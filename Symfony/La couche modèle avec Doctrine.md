@@ -70,3 +70,4 @@ via la mise à jour de l'entité et des migrations
 - Récupération des objets de la table via l'Entity Manager
 	- Il faut récupérer un service : le Container
 	- Pour cela il faut que la classe de la fixture implémente 2 interfaces : FixtureInterface et ContainerAwareInterface
+	- https://symfony.com/bundles/DoctrineFixturesBundle/current/index.html
