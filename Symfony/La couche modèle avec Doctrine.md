@@ -63,6 +63,10 @@ App\DataFixtures\:
 
 ## Ajouter des informations à une base de données
 
-- Ajout du champ dans la table -- via la mise à jour de l'entité et des migrations
-- Rafraichissement  de la table -- via les fixtures
-- 
+### Ajout du champ dans la table
+via la mise à jour de l'entité et des migrations
+
+### Rafraichissement  de la table -- via les fixtures
+- Récupération des objets de la table via l'Entity Manager
+	- Il faut récupérer un service : le Container
+	- Pour cela il faut que la classe de la fixture implémente 2 interfaces : FixtureInterface et ContainerAwareInterface
